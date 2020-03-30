@@ -2,7 +2,7 @@ $Logfile = ".\time.log"
 
 Function LogWrite
 {
-   Param ($logstring)
+   Param ([String]$logstring)
 
    Add-content $Logfile -value $logstring
 }
