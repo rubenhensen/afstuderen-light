@@ -1,1 +1,0 @@
-ping localhost:8011 > pingresult.txt
