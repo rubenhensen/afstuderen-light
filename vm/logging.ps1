@@ -1,7 +1,6 @@
 $Logfile = ".\time.log"
 
-Function LogWrite
-{
+Function LogWrite {
    Param ([String]$logstring)
 
    Add-content $Logfile -value $logstring
