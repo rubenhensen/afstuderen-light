@@ -1,4 +1,4 @@
-$Logfile = ".\time.log"
+$Logfile = ".\containter-time.log"
 
 Function LogWrite {
    Param ([String]$logstring)

@@ -1,4 +1,4 @@
-$Logfile = ".\time.log"
+$Logfile = ".\vm-time.log"
 
 Function LogWrite {
    Param ([String]$logstring)
