@@ -3,7 +3,7 @@
 . ".\stop-containers.ps1"
 . ".\webrequest.ps1"
 
-$NrContainers = 20
+$NrContainers = 10
 $NrRequests = 100
 
 $StartupTime = Measure-Command { StartContainers $NrContainers }
